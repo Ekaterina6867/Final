@@ -1,4 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// аписать программу, которая из имеющегося массива строк, формирует массив строк,
+// длинна которого меньше или равна 3 символа. Первоначальный массив можно ввести с калвиатуры,
+// либо задать на старте выполнения алгоритма.
 string[] firstArray = new string[6] {"mon", "monday", "wen", "wensday", "sun", "sunday"};
 string[] secondArray = new string[firstArray.Length];
 void TwoArray (string[] firstArray, string[] secondArray)
